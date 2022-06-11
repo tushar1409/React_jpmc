@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import Hero from '../../assets/img/hero.png'
+import Hero from '../../assets/img/hero.png
 import Logo from '../../assets/img/logo.png'
 import Card from '../../assets/img/card.png'
 import Card-lazy from '../../assets/img/card-lazy.png'
