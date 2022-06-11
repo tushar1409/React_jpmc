@@ -2,6 +2,16 @@ import React from 'react'
 import './Home.css'
 import Hero from '../../assets/img/hero.png'
 import Logo from '../../assets/img/logo.png'
+import Card from '../../assets/img/card.png'
+import Card-lazy from '../../assets/img/card-lazy.png'
+import Digital-lazy from '../../assets/img/digital-lazy.png'
+import Grow-lazy from '../../assets/img/grow-lazy.png'
+import Digital from '../../assets/img/digital-lazy.png'
+import Grow from '../../assets/img/grow-lazy.png'
+import User-1 from '../../assets/img/user-1.jpg'
+import User-2 from '../../assets/img/user-2.jpg'
+import User-3 from '../../assets/img/user-3.jpg'
+
 
 const Home = () => {
   return (
