@@ -1,16 +1,14 @@
 import React from 'react'
 import './Home.css'
-import Hero from '../../assets/img/hero.png
+import Hero from '../../assets/img/hero.png'
 import Logo from '../../assets/img/logo.png'
-import Card from '../../assets/img/card.png'
-import Card-lazy from '../../assets/img/card-lazy.png'
-import Digital-lazy from '../../assets/img/digital-lazy.png'
-import Grow-lazy from '../../assets/img/grow-lazy.png'
-import Digital from '../../assets/img/digital-lazy.png'
-import Grow from '../../assets/img/grow-lazy.png'
-import User-1 from '../../assets/img/user-1.jpg'
-import User-2 from '../../assets/img/user-2.jpg'
-import User-3 from '../../assets/img/user-3.jpg'
+import icon from '../../assets/img/icon.png'
+import CardLazy from '../../assets/img/card.png'
+import DigitalLazy from '../../assets/img/digital.png'
+import GrowLazy from '../../assets/img/grow.png'
+import User1 from '../../assets/img/user-1.jpg'
+import User2 from '../../assets/img/user-2.jpg'
+import User3 from '../../assets/img/user-3.jpg'
 
 
 const Home = () => {
@@ -77,10 +75,9 @@ const Home = () => {
 
       <div className="features">
         <img
-          src='../../assets/img/digital-lazy.png'
+          src={DigitalLazy}
           data-src="img/digital.png"
           alt="Computer"
-          className="features__img lazy-img"
         />
         <div className="features__feature">
           <div className="features__icon">
@@ -112,17 +109,15 @@ const Home = () => {
           </p>
         </div>
         <img
-          src="img/grow-lazy.png"
+          src={GrowLazy}
           data-src="img/grow.png"
           alt="Plant"
-          className="features__img1 lazy-img"
         />
 
         <img
-          src="img/card-lazy.png"
+          src={CardLazy}
           data-src="img/card.png"
           alt="Credit card"
-          className="features__img2 lazy-img"
         />
         <div className="features__feature">
           <div className="features__icon">
@@ -181,7 +176,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="operations__content operations__content--2">
+        <div className="operations__content operations__content--2 operations__content--active">
           <div className="operations__icon operations__icon--2">
             <svg>
               {/* <use xlink:href="img/icons.svg#icon-home"></use> */}
@@ -195,7 +190,7 @@ const Home = () => {
             to login as an admin.
           </p>
         </div>
-        <div className="operations__content operations__content--3">
+        <div className="operations__content operations__content--3 operations__content--active">
           <div className="operations__icon operations__icon--3">
             <svg>
               {/* <use xlink:href="img/icons.svg#icon-user-x"></use> */}
@@ -231,7 +226,7 @@ const Home = () => {
               The platform created by the changemakers helped us in gathering precise details that were needed to gather vaccinations for the needy.
             </blockquote>
             <address className="testimonial__author">
-              <img src="img/user-1.jpg" alt="" className="testimonial__photo" />
+              <img src={User1} alt="" className="testimonial__photo" />
               <h6 className="testimonial__name">Aarav Prakash</h6>
               <p className="testimonial__location">Bangalore, India</p>
             </address>
@@ -249,7 +244,7 @@ const Home = () => {
               become self reliant and independent. It has helped us bring a positive change when it comes to gender equality.
             </blockquote>
             <address className="testimonial__author">
-              <img src="img/user-2.jpg" alt="" className="testimonial__photo" />
+              <img src={User2} alt="" className="testimonial__photo" />
               <h6 className="testimonial__name">Reeta Malik</h6>
               <p className="testimonial__location">Hyderabad, India</p>
             </address>
@@ -266,7 +261,7 @@ const Home = () => {
               able to keep a track of their diet.
             </blockquote>
             <address className="testimonial__author">
-              <img src="img/user-3.jpg" alt="" className="testimonial__photo" />
+              <img src={User3} alt="" className="testimonial__photo" />
               <h6 className="testimonial__name">Prashant Raj</h6>
               <p className="testimonial__location">Lucknow, India</p>
             </address>
@@ -305,7 +300,7 @@ const Home = () => {
           <a className="footer__link" href="https://connecting-dreams.org/about-us/" target="_blank">Contact Us</a>
         </li>
       </ul>
-      <img src="img/icon.png" alt="Logo" className="footer__logo" />
+      <img src={icon} alt="Logo" className="footer__logo" />
     </footer>
 
     <div className="modal hidden">
